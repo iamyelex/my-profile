@@ -8,7 +8,6 @@
 body {
   background-color: white;
   color: black;
-  text-align: center;
   font-family: "Rubik", sans-serif;
 }
 
@@ -16,6 +15,7 @@ header,
 footer {
     background: gray;
     padding: 0.5rem 0;
+    text-align: center;
 }
 
 main {
@@ -24,6 +24,14 @@ main {
     justify-content: center;
     /* align-items: center; */
     padding: 1rem 0;
+}
+
+img{
+    height: 500px;
+}
+
+.space{
+    margin: 2rem 0;
 }
 
 a {
