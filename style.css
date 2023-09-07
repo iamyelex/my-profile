@@ -13,25 +13,26 @@ body {
 
 header,
 footer {
-    background: gray;
-    padding: 0.5rem 0;
-    text-align: center;
+  background: gray;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 main {
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 1rem 0;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1rem 0;
 }
 
-img{
-    height: 500px;
+img {
+  height: 500px;
+  border-radius: 1rem;
 }
 
-.space{
-    margin: 2rem 0;
+.space {
+  margin: 2rem 0;
 }
 
 a {
@@ -45,4 +46,22 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+@media (max-width: 425px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 0.5rem;
+  }
+
+  img {
+    height: 300px;
+    border-radius: 0.5rem;
+  }
+
+  .space {
+    margin: 1rem 0;
+  }
 }
